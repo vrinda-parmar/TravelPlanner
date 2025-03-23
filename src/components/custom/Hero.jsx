@@ -5,17 +5,17 @@ import Header from './Header'
 
 const Hero = () => {
   return (
-    <div className='w-full min-h-screen bg-cover bg-center' style={{ backgroundImage: "url('/home (2).jpg')" }}>
+    <div className='w-full min-h-screen bg-cover bg-center bg-gradient-to-r from-pink-400 via-purple-400 to-blue-500'  >
       <Header />
       <div className='flex flex-col items-center w-full h-[90vh] gap-9 p-3 shadow-sm justify-center'>
         <h1 className='font-extrabold text-[40px] text-center mt-16'>
-          <span className='text-[#083e22]'> LET'S TAKE YOU TO YOUR </span><br />
-          <span>DREAM DESTINATIONS</span>
+          <span className='text-5xl font-bold text-white drop-shadow-[0_0_20px_#00eaff]'> LET'S TAKE YOU TO YOUR </span><br />
+          <span className='text-5xl font-bold text-black drop-shadow-[0_0_20px_rgba(0,0,0,0.8)]'>DREAM DESTINATIONS</span>
         </h1>
-        <p className='text-l text-white text-center'>Your personal trip planner, creating custom itineraries tailored to your interest and budget.</p>
+        <p className='text-l text-white text-center drop-shadow-[0_0_20px_#00eaff]'>Your personal trip planner, creating custom itineraries tailored to your interest and budget.</p>
         
         <Link to={'./create-trip'}>
-          <Button className='bg-green-950 hover:bg-green-600'>Get Started, It's Free</Button>
+          <Button className='px-6 py-3 bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold rounded-full shadow-lg transform hover:scale-105 hover:shadow-[0_0_20px_5px_rgba(255,165,0,0.8)] transition duration-300'>Get Started, It's Free</Button>
         </Link>
       </div>
       <div className="-mt-2 -mb-4">

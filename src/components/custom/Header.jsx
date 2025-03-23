@@ -24,10 +24,10 @@ const Header = () => {
       )}
 
       <nav className='hidden lg:flex space-x-6'>
-        <a href='/' className='hover:text-green-500 text-green-800 text-xl font-bold hover:rounded-lg px-4 py-2 transition duration-300'>Home</a>
-        <a href='/create-trip' className='hover:text-green-500 text-green-800 font-bold text-xl hover:rounded-lg px-4 py-2 transition'>Plan Trip</a>
-        <a href='/Book-hotels' className='hover:text-green-500 text-green-800 font-bold text-xl hover:rounded-lg px-4 py-2 transition'>Book Hotels</a>
-        <a href='/where-to-go' className='hover:text-green-500 text-green-800 font-bold text-xl hover:rounded-lg px-4 py-2 transition'>Where to Go</a>
+        <a href='/' className='text-white hover:text-yellow-500 drop-shadow-[0_0_20px_#00eaff] text-xl font-bold hover:rounded-lg px-4 py-2 transition duration-300'>Home</a>
+        <a href='/create-trip' className='text-white hover:text-yellow-500 drop-shadow-[0_0_20px_#00eaff]  font-bold text-xl hover:rounded-lg px-4 py-2 transition'>Plan Trip</a>
+        <a href='/Book-hotels' className='text-white hover:text-yellow-500 drop-shadow-[0_0_20px_#00eaff] font-bold text-xl hover:rounded-lg px-4 py-2 transition'>Book Hotels</a>
+        <a href='/where-to-go' className='text-white hover:text-yellow-500 drop-shadow-[0_0_20px_#00eaff] font-bold text-xl hover:rounded-lg px-4 py-2 transition'>Where to Go</a>
       </nav>
     </div>
   );
