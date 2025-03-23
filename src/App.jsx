@@ -1,6 +1,6 @@
 
 import './App.css'
-import About from './components/custom/about'
+import About from './components/custom/About'
 import Footer from './components/custom/Footer'
 import Hero from './components/custom/Hero'
 import Services from './components/custom/Services'
