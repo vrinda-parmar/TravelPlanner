@@ -20,9 +20,9 @@ const Services = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white py-16 relative">
+    <div className="min-h-screen bg-amber-700 text-white py-16 relative">
       {/* Section Heading */}
-      <h1 className="text-5xl font-extrabold text-center mb-12 text-blue-400">Our Services</h1>
+      <h1 className="text-5xl font-extrabold text-center mb-12 text-gray-700">Our Services</h1>
 
       {/* Services Card Section */}
       <div className="flex flex-wrap justify-center gap-8">

@@ -18,7 +18,7 @@ function App() {
    <Services/>
    <div className="w-full overflow-hidden -mt-1">
   <svg viewBox="0 0 1200 100" xmlns="http://www.w3.org/2000/svg" className="rotate-180">
-    <path d="M0,50 Q300,0 600,50 T1200,50 L1200,100 L0,100 Z" fill="#111827" />
+    <path d="M0,50 Q300,0 600,50 T1200,50 L1200,100 L0,100 Z" fill="#b45309" />
   </svg>
 </div>
 

@@ -5,12 +5,12 @@ import Header from './Header'
 
 const Hero = () => {
   return (
-    <div className='w-full min-h-screen bg-cover bg-center bg-gradient-to-r from-pink-400 via-purple-400 to-blue-500'  >
+    <div className='w-full min-h-screen bg-cover bg-center bg-gradient-to-br from-amber-700 via-black to-amber-700'  >
       <Header />
       <div className='flex flex-col items-center w-full h-[90vh] gap-9 p-3 shadow-sm justify-center'>
         <h1 className='font-extrabold text-[40px] text-center mt-16'>
           <span className='text-5xl font-bold text-white drop-shadow-[0_0_20px_#00eaff]'> LET'S TAKE YOU TO YOUR </span><br />
-          <span className='text-5xl font-bold text-black drop-shadow-[0_0_20px_rgba(0,0,0,0.8)]'>DREAM DESTINATIONS</span>
+          <span className='text-5xl font-bold text-amber-700  drop-shadow-[0_0_20px_#00eaff]'>DREAM DESTINATIONS</span>
         </h1>
         <p className='text-l text-white text-center drop-shadow-[0_0_20px_#00eaff]'>Your personal trip planner, creating custom itineraries tailored to your interest and budget.</p>
         
@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="-mt-2 -mb-4">
     <svg viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg"  >
       {/* Changed to bg-gray-900 */}
-      <path d="M0,100 C300,200 900,0 1200,100 L1200,250 L0,250 Z" fill="#111827" />
+      <path d="M0,100 C300,200 900,0 1200,100 L1200,250 L0,250 Z" fill="#b45309" />
     </svg>
   </div>
     </div>
