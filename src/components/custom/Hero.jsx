@@ -5,7 +5,7 @@ import Header from './Header'
 
 const Hero = () => {
   return (
-    <div className='w-full min-h-screen bg-cover bg-center bg-[url("/discover.jpg")]   '  >
+    <div className='w-full min-h-screen bg-cover  bg-center bg-gradient-to-r from-rose-500 via-blue-400 to-gray-500 bg-[url("/discover.jpg")]   '  >
       <Header />
       <div className='flex flex-col items-center w-full h-[90vh] gap-9 p-3 shadow-sm justify-center'>
         <h1 className='font-extrabold text-[40px] text-center mt-16'>
