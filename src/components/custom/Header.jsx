@@ -10,7 +10,7 @@ const Header = () => {
 
 
       {/* Mobile Menu Button */}
-      <button onClick={() => setIsOpen(!isOpen)} className='lg:hidden block text-green-800 text-3xl'>
+      <button onClick={() => setIsOpen(!isOpen)} className='lg:hidden block text-white text-3xl'>
         ☰
       </button>
 

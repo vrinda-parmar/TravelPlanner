@@ -16,7 +16,7 @@ function App() {
    <Hero/>
    <About/>
    <Services/>
-   <div className="w-full overflow-hidden -mt-1">
+   <div className="w-full overflow-hidden -mt-1 ">
    <svg viewBox="0 0 1200 100" xmlns="http://www.w3.org/2000/svg" className="rotate-180">
   <defs>
     <linearGradient id="reversedShinyGrayGradient" x1="0%" y1="0%" x2="100%" y2="0%">
