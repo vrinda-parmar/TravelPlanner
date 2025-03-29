@@ -20,14 +20,14 @@ const Services = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-amber-700 text-white py-16 relative">
+    <div className="w-full min-h-screen bg-gradient-to-r from-gray-600 via-gray-400 to-gray-200 text-white py-16 relative">
       {/* Section Heading */}
-      <h1 className="text-5xl font-extrabold text-center mb-12 text-gray-700">Our Services</h1>
+      <h1 className="text-6xl font-extrabold text-center mb-12 text-gray-800">Our Services</h1>
 
       {/* Services Card Section */}
       <div className="flex flex-wrap justify-center gap-8">
         {servicesData.map((service, index) => (
-          <div key={index} className="w-80 p-6 bg-gray-800 rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.3)] hover:shadow-[0_10px_40px_rgba(59,130,246,0.6)] transform transition-transform duration-500 hover:scale-105">
+          <div key={index} className="w-80 p-6 bg-gray-700 rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.3)] hover:shadow-[0_10px_40px_rgba(59,130,246,0.6)] transform transition-transform duration-500 hover:scale-105">
             {/* Image Section */}
             <img src={service.imgSrc} alt={service.title} className="w-full h-40 object-cover rounded-xl mb-4" />
 

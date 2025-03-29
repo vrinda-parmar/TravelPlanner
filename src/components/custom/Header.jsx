@@ -5,8 +5,9 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className='p-3 shadow-sm flex justify-between items-center px-5'> 
-      <img src='VOYAGE VISTA.png' alt='Logo' className='h-20 rounded-2xl' />
+    <div className='p-3 shadow-sm flex justify-between items-center px-10'> 
+      <img src="newlogo.png" alt="Logo" className="h-25 w-25 rounded-full" />
+
 
       {/* Mobile Menu Button */}
       <button onClick={() => setIsOpen(!isOpen)} className='lg:hidden block text-green-800 text-3xl'>
